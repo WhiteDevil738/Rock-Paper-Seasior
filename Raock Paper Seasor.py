@@ -36,8 +36,8 @@ while True:#To Repeat The code
 
             #exit
     print("Quit The Game Press 1")
-    Exit = int(input())
-    if Exit == 1:
+    Exit = input()
+    if Exit == "1":
         print("Hope You Enjoyed!")
         break
     else:
